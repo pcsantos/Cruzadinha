@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.0.0_dfdefd3443e8f83ed8a08a458a53c3a83c722e15.jar" />
+    </item>
+    <item
+        jar="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="00d84aed0236fc889af560d07b716a6fbea8ef5f">
+        <dex dex="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/pre-dexed/debug/instant-run_96eb4e1dcbf39c8c54e517d05c928207f5d3b8f0.jar" />
+    </item>
+    <item
+        jar="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_77e10f71ab063790054ab47d360a94f21c3666c0.jar" />
+    </item>
+    <item
+        jar="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.0.0_3b143c227ec8b9b0c5a3074281d5436f31ee76e8.jar" />
+    </item>
+    <item
+        jar="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_d7804aeea0bf7ec11afcaa55be28f17be7f50e38.jar" />
+    </item>
+    <item
+        jar="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_5cc7e0257a1639c02b8be70bf079a6b26402f797.jar" />
+    </item>
+    <item
+        jar="/home/pc/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_3c11e35d2516ec89439134c7c5f558ef89eb40aa.jar" />
+    </item>
+    <item
+        jar="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2318e09290a45e60e8cc5486748d52e1f1dd8871">
+        <dex dex="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_be6ea62c8608000dd2abe604357173ec12deec1d.jar" />
+    </item>
+    <item
+        jar="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_c2e00da160d3e5a5e3779255a94dced106607a90.jar" />
+    </item>
+    <item
+        jar="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/pc/AndroidStudioProjects/Crossword/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_dc23be4eaa0907a14f27280d27c25fa856499040.jar" />
+    </item>
+
+</items>

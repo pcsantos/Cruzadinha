@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.pirituba.crossword.Main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtViewMathTitle"
+            style="@style/TextHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/txt_title" />
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:onClick="validateAnswers"
+            android:text="@string/btn_finish" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bdbdbd">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#bdbdbd">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/one_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText0"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText1"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText2"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText3"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText4"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText5"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText6"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText7"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText8"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText9"
+                        style="@style/BoxAttributes" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/two_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText10"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText11"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText12"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText13"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText14"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText15"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText16"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText17"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText18"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText19"
+                        style="@style/BoxAttributes" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/three_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText20"
+                        style="@style/BoxAttributes" />
+
+
+                    <EditText
+                        android:id="@+id/editText21"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText22"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText23"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText24"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText25"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText26"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText27"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText28"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText29"
+                        style="@style/BoxAttributes" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/four_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText30"
+                        style="@style/BoxAttributes" />
+
+
+                    <EditText
+                        android:id="@+id/editText31"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText32"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText33"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText34"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText35"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText36"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText37"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText38"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText39"
+                        style="@style/BoxAttributes" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/five_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText40"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText41"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText42"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText43"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText44"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText45"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText46"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText47"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText48"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText49"
+                        style="@style/BoxAttributes" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/six_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText50"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText51"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText52"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText53"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText54"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText55"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText56"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText57"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText58"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText59"
+                        style="@style/BoxAttributes" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/seven_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText60"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText61"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText62"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText63"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText64"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText65"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText66"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText67"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText68"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText69"
+                        style="@style/BoxAttributes" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eigth_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText70"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText71"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText72"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText73"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText74"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText75"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText76"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText77"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText78"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText79"
+                        style="@style/BoxAttributes" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nine_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText80"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText81"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText82"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText83"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText84"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText85"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText86"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText87"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText88"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText89"
+                        style="@style/BoxAttributes" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ten_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText90"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText91"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText92"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText93"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText94"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText95"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText96"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText97"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText98"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText99"
+                        style="@style/BoxAttributes" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eleven_row_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText100"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText101"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText102"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText103"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText104"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText105"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText106"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText107"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText108"
+                        style="@style/BoxAttributes" />
+
+                    <EditText
+                        android:id="@+id/editText109"
+                        style="@style/BoxAttributes" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtViewHorizontal"
+                    style="@style/TextHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_horizontal" />
+
+                <TextView
+                    android:id="@+id/txtViewHintHorizontal"
+                    style="@style/TextHints"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtViewVertical"
+                    style="@style/TextHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_vertical" />
+
+                <TextView
+                    android:id="@+id/txtViewHintVertical"
+                    style="@style/TextHints"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>
